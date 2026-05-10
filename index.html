@@ -3,6 +3,10 @@
 <head> 
 <title>My Vocabulary</title> 
   <style> 
+    .container{
+  display:flex;
+  gap:20px;
+}
     body{ font-family: Arial; padding:20px; } 
     table{ border-collapse: collapse; width: 400px; } 
     th, td{ border:1px solid black; padding:10px; text-align:left; } 
@@ -10,7 +14,8 @@
   </style>
 </head>
 <body> 
-  <h1>Vocabulary</h1> 
+  <h1>Vocabulary</h1>
+  <div class="container">
   <table> 
     <tr> 
       <th>Word</th> 
@@ -49,5 +54,6 @@
       <td>nice</td>
     </tr>
   </table>
+  </div>
 </body> 
 </html>
